@@ -1,14 +1,7 @@
-function Name (name,age,edu) {
-    this.name = name;
-    this.age = age;
-    this.edu =edu;
+function bt1Click(id){
+    const bt1_vlaue = document.getElementById(id);
+
+
+    bt1_vlaue.value = ""
     
-    this.get = (name) =>{
-        return this[name]
-    }
 }
-
-
-var d1  = new 
-
-console.log(d1.toISOString());
