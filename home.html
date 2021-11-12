@@ -9,8 +9,14 @@
     <script src='static/index.js'></script>
 </head>
 <body>
-    <input type="radio" name="rd1" id="rd1">EE</input><br>
-    <input type="radio" name="rd1" id="rd2">CS</input><br>
-  <input type="button" onclick="fnt1()"> CLICK ME </input>
+  <select onchange='fnt1("selectbox1")' id='selectbox1' >
+      <option value='EE' >EE</option>
+      <option value='CS'>CS</option>
+      <option value='EC'>EC</option>
+      <option value='EM'>EM</option>
+      <option value='IS'>IS</option>
+
+
+  </select>
 </body>
 </html>
